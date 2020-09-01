@@ -1,0 +1,26 @@
+{
+  "name": "WeatherTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "4.17.20",
+    "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz",
+    "integrity": "sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA=="
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvovich09/open-weather-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvovich09/open-weather-test/issues"
+  },
+  "homepage": "https://github.com/alvovich09/open-weather-test#readme"
+}

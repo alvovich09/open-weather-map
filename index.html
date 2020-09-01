@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тестовое задание</title>
+<link rel="stylesheet" type="text/css" href="./src/styles.css">
+</head>
+ <body>
+     <h1>WeatherMap</h1>
+    <form>
+        <input class="input" type="text" placeholder="Введите название города" name="city"> 
+        <button class="add" id="add" type="submit">Добавить</button>
+    </form>
+     <table> 
+         <thead>
+            <tr>
+                <th>
+                    <button id="sort" type="submit">
+                       <div class="sort-arrow-up" id="top"></div>
+                       <div class="sort-arrow-down" id="low"></div>
+                        Город
+                    </button>
+                </th>
+                <th id="temperature">Температура</th>
+                <th id="pressure">Атмосферное давление</th>
+                <td></td>
+                </tr>
+         </thead>
+         <tbody>
+         </tbody>
+     </table>
+     <script src="./src/index.js"></script>
+ </body>
+</html>

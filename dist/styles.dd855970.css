@@ -1,0 +1,138 @@
+@font-face {
+ font-family: "Open Sans";
+ src: url("/OpenSans.e2095e9d.ttf") format("opentype");
+}
+
+h1 {
+    color: #F4A460;
+    text-align: center; 
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+form {
+    background-color: #F4A460;
+    width: 1024px;
+    height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+input {
+    width: 300px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+ }
+ 
+.add {
+    width: 85px;
+    height: 36px;
+    background-color: #B8641C;
+    border: none;
+    border-radius: 20px;
+    font-family: "Open Sans", serif;
+    font-size: 12px; 
+    color: white;
+    text-align: center;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.del {
+    background-color: rgba(255,255,255, 0.3);
+    color: #B8641C;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    padding: 7px 24px;
+    font-family: "Open Sans", serif;
+    font-size: 12px; 
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.del:hover {
+    background-color: white;
+    color: #B8641C;
+    border: 1px solid black;
+}
+
+table {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+    font-family: "Open Sans", serif;
+}
+
+#pressure {
+    text-align: left;
+    color: darkgrey;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    left: 5px;
+}
+
+#temperature {
+    text-align: left;
+    color: darkgrey;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+
+#sort {
+    background-color: rgba(255,255,255, 0.3);
+    width: 65px;
+    height: 28px;
+    border: none; 
+    text-align: left;
+    color: darkgrey;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.sort-arrow-up {
+    border: 5px solid transparent;
+    border-top: 5px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.sort-arrow-down {
+    border: 5px solid transparent;
+    border-bottom: 5px solid grey;
+    position: absolute;
+    right: 0; 
+}
+
+.new-sort-arrow-up {
+    border: 5px solid transparent;
+    border-top: 5px solid grey;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.new-sort-arrow-down {
+        border: 5px solid transparent;
+        border-bottom: 5px solid black;
+        position: absolute;
+        right: 0;
+}
+   
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
