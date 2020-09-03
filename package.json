@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "parcel <your entry file>",
+    "build": "parcel build <your entry file>",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/alvovich09/open-weather-test/issues"
   },
-  "homepage": "https://github.com/alvovich09/open-weather-test#readme"
+  "homepage": "https://github.com/alvovich09/open-weather-test#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  }
 }
